@@ -80,6 +80,9 @@ It will invoke the nclaunch window for functional simulation we can compile,elab
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure
 
 Click the cds.lib file and save the file by clicking on Save option
+![Screenshot 2025-03-17 153224](https://github.com/user-attachments/assets/801864dc-bf36-4d75-859b-c29ec535460f)
+
+
 
 ## Fig 4: cds.lib file Creation
 
@@ -99,7 +102,14 @@ Click the cds.lib file and save the file by clicking on Save option
 
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
 
+![Screenshot 2025-04-21 155843](https://github.com/user-attachments/assets/37cccae7-9bbd-41d9-b5e8-497c919f1ab1)
+
+
 ## Fig 6: Nclaunch Window
+
+![Screenshot 2025-03-17 160111](https://github.com/user-attachments/assets/d22ba28c-0907-49be-b175-6c91316da751)
+
+
 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation.
 
@@ -124,6 +134,9 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
 
 ## Fig 7: Compiled database in worklib
+
+![Screenshot 2025-03-17 160203](https://github.com/user-attachments/assets/7e584682-9d0c-4f80-a2c0-bcf6853498c1)
+
 
 	After compilation it will come under worklib you can see in right side window
 
@@ -152,7 +165,13 @@ It contains statements that map logical library names to their physical director
     
 	After elaboration the file will come under snapshot. Select the test bench and simulate it. 
 
+![Screenshot 2025-03-17 160203](https://github.com/user-attachments/assets/bbf77c0a-e75a-474d-8d85-deb032433c8c)
+
+
 ## Fig 8: Elaboration Launch Option
+
+![Screenshot 2025-03-17 160203](https://github.com/user-attachments/assets/ae24c941-15f9-46ac-8cc7-27b4d7406a77)
+
 
 ### Step 3: Simulation: – Simulate with the given test vectors over a period of time to observe the output behaviour. 
 
@@ -166,9 +185,17 @@ It contains statements that map logical library names to their physical director
 
 ## Fig 9: Design Browser window for simulation
 
+![Screenshot 2025-03-17 161509](https://github.com/user-attachments/assets/d053019b-96ac-4b75-b4de-dfd84f9acdaa)
+
+
 ## Fig 10: Simulation Waveform Window
 
+![Screenshot 2025-03-17 160507](https://github.com/user-attachments/assets/54c26d64-a34b-4599-ad28-b721cf738ecb)
+
+
 ## Fig 11: Simulation Waveform Window
+![Screenshot 2025-03-17 161648](https://github.com/user-attachments/assets/bcf0fb9e-82b5-4f33-9c4c-eb9cb007e963)
+
 
 ### Result
 
