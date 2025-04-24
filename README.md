@@ -181,7 +181,8 @@ It contains statements that map logical library names to their physical director
 
 ## Fig 8: Elaboration Launch Option
 
-![Screenshot 2025-03-17 160203](https://github.com/user-attachments/assets/ae24c941-15f9-46ac-8cc7-27b4d7406a77)
+![Screenshot 2025-03-17 160338](https://github.com/user-attachments/assets/1cdc7a15-ce2f-454b-81a3-b8bf7c54cc6b)
+
 
 
 ### Step 3: Simulation: – Simulate with the given test vectors over a period of time to observe the output behaviour. 
@@ -196,12 +197,14 @@ It contains statements that map logical library names to their physical director
 
 ## Fig 9: Design Browser window for simulation
 
+![Screenshot 2025-03-17 161509](https://github.com/user-attachments/assets/dc6124b3-4cc4-4dfc-97df-633f21f9eff7)
 
 
 
 ## Fig 10: Simulation Waveform Window
 
 
+![Screenshot 2025-03-17 160507](https://github.com/user-attachments/assets/d188088c-bdb2-4b10-bb0a-dde1178aa8c0)
 
 
 ## Fig 11: Simulation Waveform Window
