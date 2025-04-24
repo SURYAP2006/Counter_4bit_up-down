@@ -46,6 +46,7 @@ Functional Simulation:
 ## Fig 2: Invoke the Cadence Environment
 
 
+
 ## Creating Source Code:
 
 	In the Terminal, type gedit <filename>.v or <filename>.vhdl depending on the HDL Language you are to use (ex: 4b_up_downCount.v).
@@ -80,11 +81,15 @@ It will invoke the nclaunch window for functional simulation we can compile,elab
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure
 
 Click the cds.lib file and save the file by clicking on Save option
-![Screenshot 2025-03-17 153224](https://github.com/user-attachments/assets/801864dc-bf36-4d75-859b-c29ec535460f)
+![Screenshot 2025-04-24 114757](https://github.com/user-attachments/assets/36fa7309-0d97-4661-a652-95640e060caa)
+
 
 
 
 ## Fig 4: cds.lib file Creation
+
+![Screenshot 2025-04-24 114824](https://github.com/user-attachments/assets/b6ffe6bf-1b26-4a91-bdfd-696d3e53356b)
+
 
 	Save cds.lib file and select the correct option for cds.lib file format based on the  HDL Language and Libraries used.
 
@@ -94,6 +99,7 @@ Click the cds.lib file and save the file by clicking on Save option
 
 ## Fig 5: Selection of Don’t include any libraries
 
+
 	A Click “OK” in the “nclaunch: Open Design Directory” window
 
 	A ‘NCLaunch window’ appears as shown in figure below
@@ -102,18 +108,21 @@ Click the cds.lib file and save the file by clicking on Save option
 
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
 
-![Screenshot 2025-04-21 155843](https://github.com/user-attachments/assets/37cccae7-9bbd-41d9-b5e8-497c919f1ab1)
+![Screenshot 2025-04-24 114842](https://github.com/user-attachments/assets/9cc6782f-084b-4439-b4c3-31faa40f6384)
+
 
 
 ## Fig 6: Nclaunch Window
 
-![Screenshot 2025-03-17 160111](https://github.com/user-attachments/assets/d22ba28c-0907-49be-b175-6c91316da751)
+![Screenshot 2025-04-24 114901](https://github.com/user-attachments/assets/d9dafbc0-f5f6-4282-adf5-1dafb0ad332c)
 
 
 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation.
 
 ## Step 1: Compilation:– Process to check the correct Verilog language syntax and usage 
+![Screenshot 2025-04-24 114915](https://github.com/user-attachments/assets/84d4d6ab-8ac4-4fa4-84ce-b36675e6c9bf)
+
 
 	Inputs: Supplied are Verilog design and test bench codes 
 
@@ -135,7 +144,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 ## Fig 7: Compiled database in worklib
 
-![Screenshot 2025-03-17 160203](https://github.com/user-attachments/assets/7e584682-9d0c-4f80-a2c0-bcf6853498c1)
+
+![435785109-ae24c941-15f9-46ac-8cc7-27b4d7406a77~3 1](https://github.com/user-attachments/assets/4fecac3e-8f28-4da0-b397-d74358b09485)
 
 
 	After compilation it will come under worklib you can see in right side window
@@ -165,7 +175,8 @@ It contains statements that map logical library names to their physical director
     
 	After elaboration the file will come under snapshot. Select the test bench and simulate it. 
 
-![Screenshot 2025-03-17 160203](https://github.com/user-attachments/assets/bbf77c0a-e75a-474d-8d85-deb032433c8c)
+![435785109-ae24c941-15f9-46ac-8cc7-27b4d7406a77~3 1](https://github.com/user-attachments/assets/1b835447-7b4c-4e62-bb32-4afba66b11bd)
+
 
 
 ## Fig 8: Elaboration Launch Option
@@ -185,16 +196,17 @@ It contains statements that map logical library names to their physical director
 
 ## Fig 9: Design Browser window for simulation
 
-![Screenshot 2025-03-17 161509](https://github.com/user-attachments/assets/d053019b-96ac-4b75-b4de-dfd84f9acdaa)
+
 
 
 ## Fig 10: Simulation Waveform Window
 
-![Screenshot 2025-03-17 160507](https://github.com/user-attachments/assets/54c26d64-a34b-4599-ad28-b721cf738ecb)
+
 
 
 ## Fig 11: Simulation Waveform Window
-![Screenshot 2025-03-17 161648](https://github.com/user-attachments/assets/bcf0fb9e-82b5-4f33-9c4c-eb9cb007e963)
+
+![Screenshot 2025-03-10 160956](https://github.com/user-attachments/assets/50468236-d269-4d57-b4f6-1e73d6851485)
 
 
 ### Result
